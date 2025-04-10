@@ -1,9 +1,17 @@
-/node_modules
-/dist
-/build
-/coverage
-/logs
-/temp
-/cache
-/target
-/Cargo.lock
+# Frontend
+frontend/node_modules
+frontend/dist
+frontend/build
+frontend/coverage
+
+# Backend
+backend/target/
+backend/Cargo.lock
+
+# General
+logs
+temp
+cache
+.env
+*.log
+.DS_Store
